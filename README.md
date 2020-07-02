@@ -11,6 +11,9 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 ## Business Problem: 
    create a sementic segmentation model that can identify a range of nuclei across varied conditions. By observing patterns, Given a microscopic cell image contain various pattern of the nuclei and segments each nuclei.(It is Sementic segmentation problem).
 ### Performance metrics :
-  The evaluation metrics for this sementic segmentation problem is mean Intersection over Union
+  The evaluation metrics for this sementic segmentation problem is mean Intersection over Union. The IoU of a proposed set of object pixels and a set of true object pixels is calculated as:
   ##                     IoU(A,B)=A∩B/A∪B.
+  ### constraints :
+   It not a low letency problem but the cost of error is very high because it is the medical problem prespective task where the cost of error is always high
+   
    
