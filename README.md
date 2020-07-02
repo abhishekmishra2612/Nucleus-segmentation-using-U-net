@@ -17,8 +17,11 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
    It not a low letency problem but the cost of error is very high because it is the medical problem prespective task where the cost of error is always high
    
  ## Steps :
- Load the train(Images, masks) and test(Images,) and then extract the features from images and masks of train and test data into the numpy array so that we can preprocess the iamges and masks and manipulates it.
- Then did data augmentation to increase the samples for training to overcome of overfitting problem. Data augmentation on both images and masks with the same seed value.
- build a U-net model with input shape=(128,128,3) and for output we get one mask image for a corresponding cell image.
+ 1.) Load the train(Images, masks) and test(Images,) and then extract the features from images and masks of train and test data into the numpy array so that we can preprocess the iamges and masks and manipulates it.
+ 
+ 2.) Then did data augmentation to increase the samples for training to overcome of overfitting problem. Data augmentation on both images and masks with the same seed value.
+ 
+ 3.) Built a U-net model with input shape=(128,128,3) and for output we get one mask image for a corresponding cell image.
+ 
  I got 0.7423 validation Mean_IoU that is reasonably good performance.
   
