@@ -26,5 +26,7 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
  I got 0.7423 validation Mean_IoU that is reasonably good performance.
   
 ### Some predicted masks images:
-#### for a train data :
-https://github.com/abhishekmishra2612/Nucleus-segmentation-using-U-net/blob/master/Screenshot%20(109).png
+
+for a train data : Screenshot(109).png in the repo
+
+for test data : Screenshot(111).png in the repo
