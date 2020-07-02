@@ -27,6 +27,6 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
   
 ### Some predicted masks images:
 
-for a train data : Screenshot(109).png in the repo
+for a train data : ![Screenshot (109)](https://user-images.githubusercontent.com/41646536/86352383-5752c000-bc83-11ea-8b14-68ffe40ccfa5.png)
 
 for test data : Screenshot(111).png in the repo
