@@ -9,4 +9,8 @@ By automating nucleus detection, you could help unlock cures faster—from rare 
 Identifying the cells’ nuclei is the starting point for most analyses because most of the human body’s 30 trillion cells contain a nucleus full of DNA, the genetic code that programs each cell. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, the researcher can understand the underlying biological processes at work.
 ### Source of dataset: https://www.kaggle.com/c/data-science-bowl-2018/data
 ## Business Problem: 
-       create a sementic segmentation model that can identify a range of nuclei across varied conditions. By observing patterns,
+   create a sementic segmentation model that can identify a range of nuclei across varied conditions. By observing patterns, Given a microscopic cell image contain various pattern of the nuclei and segments each nuclei.(It is Sementic segmentation problem).
+### Performance metrics :
+  The evaluation metrics for this sementic segmentation problem is mean Intersection over Union
+  ##                     IoU(A,B)=A∩B/A∪B.
+   
